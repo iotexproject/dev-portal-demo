@@ -34,7 +34,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const postRaw = posts[0];
+  const postRaw = posts.find((post) => post.slug === params?.slug);
 
   if (!postRaw) {
     throw new Error(`Failed to fetch post with slug:`);

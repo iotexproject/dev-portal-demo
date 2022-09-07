@@ -19,6 +19,23 @@ export const posts: Post[] = [
     },
     videoUrl: "RkVKk-sedts",
   },
+  {
+    id: "2",
+    title: "A Blockchain Powered Smart-Lock with Arduino Nano IoT 33 (Part 1)",
+    description:
+      "This tutorial demonstrates how to remotely control a home automation device using a smart contract. We will be controlling a smart-lock through the popular Arduino Nano 33 IoT, which will be connected to the IoTex blockchain.",
+    slug: "Blockchain-Powered-Smart-Lock",
+    permalink: "academy/smart-lock-with-arduino.md",
+    createdAt: "2021-03-31T00:00:00.000Z",
+    updatedAt: "2021-03-31T00:00:00.000Z",
+    status: "published",
+    author: {
+      id: "1",
+      name: "IoTeX",
+      githubHandle: "iotexproject",
+    },
+    videoUrl: "RkVKk-sedts",
+  },
 ];
 
 export const slugs: string[] = posts.map((post) => post.slug ?? "");
