@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+### Add env variables
+
+First, create your `.env.local` file in the project root and add vars listed in `.env.template`.
+
+### Run it
+
+After that, run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +18,39 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tasks
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### #1 Add comments
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Add comments to the post page (/pages/posts/[slug]).
 
-## Learn More
+#### Requirements:
 
-To learn more about Next.js, take a look at the following resources:
+- Users can add, delete and edit comments.
+- Users can react and reply to comments.
+- Comments should be lazy loaded.
+- Comments should have a counter.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### #2 Create Table of contents.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Add TOC (Table of Contents) to the post page sidebar (/pages/posts/[slug]).
 
-## Deploy on Vercel
+#### Requirements:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Move TOC from post body to the sidebar.
+- TOC should be collapsable.
+- TOC should include post headers up to 3 level.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### #3 Add post pagination
+
+Add post pagination to the post page `/pages/posts/[slug]`.
+
+#### Requirements:
+
+- On the first visit only show a post snippet.
+- Add "show more" button and upload the rest of the post OR
+- Split post into pages.
+
+#### Bonus:
+
+- Solve "Large Page Data" warning for `/posts/Blockchain-Powered-Smart-Lock`
