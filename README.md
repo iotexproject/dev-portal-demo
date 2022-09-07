@@ -33,11 +33,11 @@ Add comments to the post page (/pages/posts/[slug]).
 
 ### #2 Create Table of contents.
 
-Add TOC (Table of Contents) to the post page sidebar (/pages/posts/[slug]).
+Add detachable TOC (Table of Contents) in the post page (/pages/posts/[slug]).
 
 #### Requirements:
 
-- Move TOC from post body to the sidebar.
+- Detach TOC from post body to other component your choice (e.g sidebar).
 - TOC should be collapsable.
 - TOC should include post headers up to 3 level.
 
