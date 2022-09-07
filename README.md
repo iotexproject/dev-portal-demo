@@ -19,6 +19,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Tasks
+Below we list a few tasks, you don't have to do complete them all, but the more the better. 
 
 ### #1 Add comments
 
@@ -37,7 +38,7 @@ Add detachable TOC (Table of Contents) in the post page (/pages/posts/[slug]).
 
 #### Requirements:
 
-- Detach TOC from post body to other component your choice (e.g sidebar).
+- Detach TOC from post body and attach to another component of your choice (e.g sidebar).
 - TOC should be collapsable.
 - TOC should include post headers up to 3 level.
 
@@ -51,6 +52,6 @@ Add post pagination to the post page `/pages/posts/[slug]`.
 - Add "show more" button and fetch the rest of the post OR
 - Split post into pages.
 
-#### Bonus:
+#### Bonus task:
 
-- Solve "Large Page Data" warning for `/posts/Blockchain-Powered-Smart-Lock`
+- Solve (or discuss) the "Large Page Data" warning for `/posts/Blockchain-Powered-Smart-Lock`
