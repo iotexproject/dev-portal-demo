@@ -48,7 +48,7 @@ Add post pagination to the post page `/pages/posts/[slug]`.
 #### Requirements:
 
 - On the first visit only show a post snippet.
-- Add "show more" button and upload the rest of the post OR
+- Add "show more" button and fetch the rest of the post OR
 - Split post into pages.
 
 #### Bonus:
