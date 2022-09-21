@@ -52,9 +52,9 @@ Add post pagination to the post page `/pages/posts/[slug]`.
 - Add "show more" button and fetch the rest of the post OR
 - Split post into pages.
 
-#### Bonus task (debug):
+### #4 (Bonus task) Debug:
 
 - Solve (or discuss) the "Large Page Data" warning for `/posts/Blockchain-Powered-Smart-Lock`
 
-#### Bonust task (design):
+### #5 (Bonust task) Design:
 - Change the layout, add/edit components (even non functional ones) in the blog page to make it your own design & style. 
